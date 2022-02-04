@@ -1,0 +1,48 @@
+<!-- 
+Ho ten: Đỗ Thái Duy 
+MSSV: 19120492
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Kiem tra</title>
+</head>
+<body>
+  <div class="header">
+    <div class="title"><h2>SimpleLiveCode</h2></div>
+    <div class="btn-group">
+      <button class="html">HTML</button>
+      <button class = "css">CSS</button>
+      <button class= "js">JavaScript</button>
+      <button class = "output">Output</button>
+    </div>
+  </div>
+
+  <div class="body">
+    <fieldset class = "html-field">
+      <legend>HTML</legend>
+      <textarea cols="40" rows="30" class = "html-text" oninput="showCode()"></textarea>
+    </fieldset>
+    <fieldset class = "css-field">
+      <legend>CSS</legend>
+      <textarea cols="40" rows="30"class = "css-text" oninput="showCode()"></textarea>
+    </fieldset>
+    <fieldset class = "js-field">
+      <legend>Javascript</legend>
+      <textarea cols="40" rows="30" class = "js-text" oninput="showCode()"></textarea>
+    </fieldset>
+    <fieldset>
+      <legend>Output</legend>
+      <iframe id = "outputCode"></iframe>
+    </fieldset>
+    
+  </div>
+
+  <script src = "js/index.js"></script>
+</body>
+</html>
