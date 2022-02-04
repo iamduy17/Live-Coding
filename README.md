@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/badge/version-1.0.0-blue">
 <img src="https://img.shields.io/badge/status-done-green.svg">
 </p>
-Test number 2 of Web class 19_3. This test help us to create a simple live coding with a simple user interface.
+Bài kiểm tra số 2 môn Phát triển Ứng dụng Web. Vận dụng kiến thức học được từ các buổi trước với 3 ngôn ngữ là HTML, CSS, JavaScript để thực hiện tạo ra một ứng dụng Simple Live Coding.
 
 ### Thông tin sinh viên thực hiện:
 |       Họ và tên      |   MSSV   | Email                           |
